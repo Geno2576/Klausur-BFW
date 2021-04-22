@@ -5,14 +5,10 @@
 div {
     border: thin solid ay;
 }
-
-
 .row {
     width : 95vw;
     height: auto;
 }
-
-
 /* Schmale Bildschirme */
 /* Mobile First */
 .col-1 {
@@ -39,7 +35,6 @@ div {
     width: 100%;
     height: auto;
 }
-
 @media (min-width: 50em) {
   /* Mittlere Bildschirme */
     .col-1 {
@@ -67,7 +62,6 @@ div {
         height: auto;
     } 
 }
-
 @media (min-width: 80em) {
 /* oße Bildschirme */
     .col-1 {
@@ -94,9 +88,12 @@ div {
         width: 100%;
         height: auto;
     }
-
 }
-
+.flex { 
+    display: flex; 
+    justify-content: 50%; 
+    align-items: center;
+}
 
 
 
