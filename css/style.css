@@ -94,11 +94,18 @@ div {
     justify-content: 50%; 
     align-items: center;
 }
-.links {
+/* Bild mittig setzen */
+.mittig {
     margin-left : 25vh;
 }
-
-
+/* grüner Rahmen für Bilder */
+.rahmen {
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+    width:auto;
+    height:auto;
+}
 
 
 
