@@ -187,3 +187,12 @@ div {
         padding: 0;
     }
 }
+/* Bildergallery */
+.galbild{
+    width: 250px;
+    height: 250px;
+  }
+  .container-xl {
+    background-color: rgba(21, 17, 238, 0.342);
+    text-align: center;
+}
